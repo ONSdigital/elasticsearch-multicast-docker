@@ -1,4 +1,4 @@
-FROM elasticsearch:2.2.0
+FROM elasticsearch:2.1.1
 
 
 RUN plugin install discovery-multicast
